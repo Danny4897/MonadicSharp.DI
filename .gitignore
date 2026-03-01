@@ -1,0 +1,22 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.idea/
+*.DS_Store
+
+## NuGet packages
+*.nupkg
+*.snupkg
+nupkg/
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+
+## User secrets
+appsettings.Development.json
+secrets.json
