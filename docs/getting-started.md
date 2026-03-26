@@ -1,5 +1,8 @@
 # Getting Started
 
+[![NuGet](https://img.shields.io/nuget/v/MonadicSharp.DI.svg?style=flat-square)](https://www.nuget.org/packages/MonadicSharp.DI/) [![NuGet Downloads](https://img.shields.io/nuget/dt/MonadicSharp.DI.svg?style=flat-square)](https://www.nuget.org/packages/MonadicSharp.DI/)
+
+
 MonadicSharp.DI is a lightweight functional mediator for .NET — CQRS without MediatR's exception-based conventions, aligned with MonadicSharp's `Result<T>` primitives.
 
 ## Install
