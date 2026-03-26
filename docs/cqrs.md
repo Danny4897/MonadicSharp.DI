@@ -2,7 +2,7 @@
 
 CQRS (Command Query Responsibility Segregation) separates read operations (queries) from write operations (commands). MonadicSharp.DI implements this pattern using `Result<T>` as the universal return type — no exceptions, no nulls.
 
-## Why Result<T> instead of exceptions
+## Why `Result<T>` instead of exceptions
 
 Classic MediatR handlers throw exceptions on failure. The caller must catch them (or forget to). MonadicSharp.DI inverts this: every handler returns `Result<T>`, making failure a first-class value in the type system.
 
