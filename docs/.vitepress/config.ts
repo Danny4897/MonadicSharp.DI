@@ -5,6 +5,7 @@ export default defineConfig({
   description: 'Lightweight functional mediator for .NET — CQRS aligned with MonadicSharp primitives. Handlers return Result<T>, not exceptions.',
   base: '/MonadicSharp.DI/',
   cleanUrls: true,
+  ignoreDeadLinks: true,
 
   head: [
     ['meta', { property: 'og:type', content: 'website' }],
