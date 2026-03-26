@@ -20,3 +20,5 @@ TestResults/
 ## User secrets
 appsettings.Development.json
 secrets.json
+docs/node_modules/
+docs/.vitepress/dist/
